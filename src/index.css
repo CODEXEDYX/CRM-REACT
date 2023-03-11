@@ -1,0 +1,434 @@
+main .cont_cliente.cont_cliente_formulario,
+main .cont_cliente,
+main .cont_inicio,
+header .cont_header {
+	margin: auto;
+	width: 90%;
+}
+main .cont_cliente.cont_cliente_formulario {
+	max-width: 800px;
+	margin-top: 50px;
+}
+
+main .cont_inicio {
+	max-width: 700px;
+	margin-bottom: 200px;
+}
+
+main .cont_cliente {
+	margin-top: 100px;
+	max-width: 1300px;
+}
+
+main .caja_error_page h2,
+main .cont_cliente h2,
+header .cont_header h2,
+main .cont_inicio .caja_texto_inico h1 {
+	text-transform: uppercase;
+}
+
+main .cont_cliente .caja_boton_cliente,
+main .cont_cliente .caja_boton_ver {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 10px;
+}
+main .cont_inicio .caja_boton_inicio button,
+main .cont_cliente .caja_boton_ver button,
+main .cont_cliente .caja_boton_cliente button {
+	text-transform: uppercase;
+	background-color: var(--bs-azul);
+	padding: 10px;
+	font-weight: 700;
+	transition: background-color 1s ease-out;
+}
+main .cont_cliente .caja_boton_ver button:hover,
+main .cont_cliente .caja_boton_cliente button:hover,
+main .cont_inicio .caja_boton_inicio button:hover {
+	background-color: var(--bs-naranja);
+}
+
+header {
+	border-bottom: 1px solid var(--bs-blanco-claro);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header .cont_header {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+	align-items: center;
+}
+header .cont_header h2 strong {
+	color: var(--bs-azul);
+}
+
+header .cont_header nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header .cont_header nav ul {
+	display: flex;
+}
+header .cont_header nav ul li a {
+	margin-left: 20px;
+	text-transform: capitalize;
+}
+header .cont_header nav ul li a.azul {
+	color: var(--bs-azul);
+}
+
+main .cont_inicio .caja_texto_inico {
+	text-align: center;
+	margin-top: 200px;
+}
+main .cont_inicio .caja_texto_inico h1 span {
+	color: var(--bs-azul);
+}
+
+main .cont_inicio .caja_texto_inico p span:nth-child(-n + 6) {
+	text-transform: uppercase;
+}
+
+main .cont_inicio .caja_texto_inico p span:nth-child(4) {
+	color: var(--bs-verde-mer);
+}
+main .cont_inicio .caja_texto_inico p span:nth-child(5) {
+	color: var(--bs-gris);
+}
+main .cont_inicio .caja_texto_inico p span:nth-child(3) {
+	color: var(--bs-verde-claro);
+}
+
+main .cont_inicio .caja_texto_inico p span:nth-child(2) {
+	color: var(--bs-azul);
+}
+
+main .cont_inicio .caja_texto_inico p span:last-child {
+	color: var(--bs-naranja);
+}
+main .cont_inicio .caja_texto_inico p span:first-child {
+	color: var(--bs-rojo);
+}
+
+main .cont_inicio .caja_boton_inicio {
+	display: flex;
+	justify-content: center;
+}
+
+main .cont_inicio .caja_boton_inicio button {
+	padding: 20px;
+}
+main .cont_cliente h2 span {
+	color: var(--bs-azul);
+}
+main .cont_cliente p::first-letter {
+	text-transform: capitalize;
+}
+
+main .cont_cliente .cont_formulario,
+main .cont_cliente table {
+	border-radius: 5px;
+	background-color: var(--bs-negro-claro);
+	box-shadow: 0px 0px 20px var(--bs-gris);
+}
+
+main .cont_cliente table {
+	table-layout: auto;
+	width: 100%;
+	margin-bottom: 100px;
+	border-radius: 5px;
+	background-color: var(--bs-negro-claro);
+	box-shadow: 0px 0px 20px var(--bs-gris);
+}
+
+main .cont_cliente table thead {
+	background-color: var(--bs-negro-oscuro);
+}
+main .cont_cliente table thead tr th {
+	color: var(--bs-blanco-claro);
+	padding: 10px;
+}
+
+main .cont_cliente table thead tr th {
+	text-transform: capitalize;
+}
+
+main .cont_cliente table tbody tr td p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+main .cont_cliente table tbody tr:hover {
+	background-color: var(--bs-verde-oscuro);
+	transition: 1s ease-out;
+}
+
+main .cont_cliente table tbody tr td:first-child {
+	color: var(--bs-azul);
+}
+
+main .cont_cliente table tbody tr td:nth-child(2) {
+	color: var(--bs-naranja);
+}
+
+main .cont_cliente table tbody tr td:nth-child(3) {
+	color: var(--bs-gris);
+}
+
+main .cont_cliente table tbody tr td button {
+	width: 100%;
+	padding: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: var(--bs-blanco-claro);
+	text-transform: capitalize;
+}
+main .cont_cliente table tbody tr td button:last-child {
+	background-color: var(--bs-naranja);
+}
+main .cont_cliente table tbody tr td button:first-child {
+	background-color: var(--bs-rojo);
+}
+main .cont_cliente table tbody tr td button:nth-child(2) {
+	background-color: var(--bs-verde-mer);
+}
+
+main .cont_cliente .caja_texto_cliente {
+	text-align: center;
+}
+
+main .cont_cliente.cont_cliente_formulario .cont_formulario {
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+main .cont_cliente.cont_cliente_formulario .cont_formulario form {
+	display: grid;
+	gap: 20px;
+}
+
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="submit"],
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="submit"] {
+	width: 100%;
+	background-color: var(--bs-azul);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	color: var(--bs-blanco-claro);
+	transition: background-color 0.5s ease-in-out;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="submit"]:hover {
+	background-color: var(--bs-verde-mer);
+}
+
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo.boton,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo.mensaje,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo.empresa,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo.nombre {
+	grid-column: 1/3;
+}
+
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	textarea,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="email"],
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="text"],
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="tel"] {
+	width: 100%;
+	background-color: var(--bs-blanco-claro);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: var(--bs-gris);
+	border-radius: 5px;
+}
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	textarea:focus-visible,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="email"]:focus-visible,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="text"]:focus-visible,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="tel"]:focus-visible {
+	color: var(--bs-azul);
+}
+
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	textarea {
+	min-height: 100px;
+	max-height: 150px;
+}
+
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	textarea::placeholder,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="email"]::placeholder,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="text"]::placeholder,
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	input[type="tel"]::placeholder {
+	font-size: 14px;
+}
+main
+	.cont_cliente.cont_cliente_formulario
+	.cont_formulario
+	form
+	.formulario_grupo
+	label {
+	display: block;
+	margin-bottom: 10px;
+	color: var(--bs-blanco-claro);
+}
+
+main .cont_cliente.cont_cliente_formulario .cont_formulario .caja_error {
+	padding: 10px;
+	background-color: var(--bs-rojo);
+	border-radius: 5px;
+	text-align: center;
+	color: var(--bs-blanco-claro);
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+	main .cont_cliente.cont_cliente_formulario .cont_formulario form {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+main .caja_error_page {
+	text-align: center;
+	margin-top: 20px;
+}
+main .caja_error_page h2 span {
+	color: var(--bs-azul);
+}
+
+main .caja_error_page h3::first-letter {
+	text-transform: capitalize;
+}
+main .caja_error_page p:last-child {
+	color: var(--bs-rojo);
+}
+
+main .cont_cliente .caja_cliente_ver {
+	background-color: var(--bs-negro-claro);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+main .cont_cliente .caja_cliente_ver h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+main .cont_cliente .caja_cliente_ver h3 span {
+	color: var(--bs-azul);
+}
+main .cont_cliente .caja_cliente_ver p {
+	font-size:16px;
+}
